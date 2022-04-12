@@ -4,7 +4,7 @@ class Videotape:
     Name = "developer-onizuka"
     Position = 0
 
-    def Greed(self):
+    def Greet(self):
         output = "Hello, " +self.Name
         return output
 
