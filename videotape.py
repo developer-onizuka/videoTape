@@ -1,8 +1,11 @@
 #!/usr/bin/python3
 
 class Videotape:
-    Name = "developer-onizuka"
-    Position = 0
+    location = ""
+
+    def __init__(self):
+        self.Name = ""
+        self.Position = 0
 
     def Greet(self):
         output = "Hello, " +self.Name
@@ -10,7 +13,6 @@ class Videotape:
 
     def Forward(self, arg1):
         self.Position = self.Position + arg1
-        print(self.Name)
         return self.Position
 
     def Backward(self, arg1):
