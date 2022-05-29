@@ -2,18 +2,20 @@
 
 from videotape import Videotape 
 
+Videotape.location = "Tokyo"
+
 vt = Videotape()
+vt.Name = "Bob"
 print(vt.Greet())
-print(vt.Name)
-print(vt.Position)
+print(Videotape.location)
 print(vt.Forward(100))
 print(vt.Backward(10))
 
 print("\n")
 
 vx = Videotape()
+vx.Name = "Tom"
 print(vx.Greet())
-print(vx.Name)
-print(vx.Position)
+print(Videotape.location)
 print(vx.Forward(200))
 print(vx.Backward(50))
