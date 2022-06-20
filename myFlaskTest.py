@@ -1,4 +1,5 @@
 from myFlask import app
+from myFlask import xyz
 
 def getRequest():
     app.config['TESTING'] = True
@@ -7,3 +8,5 @@ def getRequest():
     print(response.data)
 
 getRequest()
+
+print(xyz)
